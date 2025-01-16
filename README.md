@@ -1,4 +1,4 @@
-# Proxy Checker
+# Proxy Checker | 10 STARS FOR V2
 yes i made chatgpt write this cuz i was too lazy...
 ## Overview
 🔱 **Proxy Checker** is a Python-based utility for validating proxies. It supports multiple proxy types (HTTP, HTTPS, SOCKS4, SOCKS5) and saves valid proxies into corresponding files. A potential scraper may be added in a future version.
