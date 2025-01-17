@@ -43,7 +43,7 @@ def process_proxies(proxy_type, proxy_file_path):
     with open(proxy_file_path, "r") as file:
         proxies = file.readlines()
 
-    with ThreadPoolExecutor(max_workers=10) as executor:
+    with ThreadPoolExecutor(max_workers=30) as executor:
         for proxy in proxies:
             executor.submit(check_proxy, proxy, proxy_type)
 
