@@ -29,14 +29,18 @@ pip install -r requirements.txt
 ```
 
 ## How to Use
-1. Run the script by executing the following command:
+1. Download the program
+   ```bash
+   git clone https://github.com/Ghost-Sellz/Proxy-checker
+   ```
+2. Run the script by executing the following command:
    ```bash
    python main.py
    ```
-2. Select option `1` from the menu to start the proxy checker.
-3. Choose the type of proxy you want to check (HTTP, HTTPS, SOCKS4, or SOCKS5).
-4. Use the file explorer to select your proxy file (must be a `.txt` file with proxies listed line by line).
-5. The script will validate the proxies and save the valid ones into corresponding files.
+3. Select option `1` from the menu to start the proxy checker.
+4. Choose the type of proxy you want to check (HTTP, HTTPS, SOCKS4, or SOCKS5).
+5. Use the file explorer to select your proxy file (must be a `.txt` file with proxies listed line by line).
+6. The script will validate the proxies and save the valid ones into corresponding files.
 
 ## File Structure
 - `http.txt`: Contains valid HTTP proxies.
